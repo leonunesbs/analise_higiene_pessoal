@@ -41,7 +41,7 @@ import matplotlib.pyplot as plt
 """### Carregando os dados"""
 
 # Carrega os dados do arquivo .csv
-df = pd.read_csv('https://raw.githubusercontent.com/leonunesbs/analise_higiene_pessoal/main/higiene_pessoal.csv?token=AG5IHQJBV62TTDJHURMPMKDALOOH6')
+df = pd.read_csv('https://raw.githubusercontent.com/leonunesbs/analise_higiene_pessoal/main/higiene_pessoal.csv')
 
 # Mostra os 5 primeiros dados
 df.head()
